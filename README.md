@@ -1,2 +1,2 @@
-# Songbird: Decentralized Moderation
-“Songbird” Decentralized Content Moderation &amp; Assessment System Proposal
+# Songbird: Decentralized Content Moderation &amp; Assessment Proposal
+Text
