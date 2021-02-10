@@ -54,17 +54,23 @@ This document is presented as an idea sketch for how a decentralized content mod
   * Again, third party assessments would be available transparently and publicly at all times as metadata associated with a CID in Songbird-linked systems.  
 * Third party complainants, whether with a legal complaint or other (e.g., moral complaints about non-illegal content), would also have parity in the ecosystem, in that their well-formed and apparently good faith complaints (*Note*: a complex topic in itself) received by apps and platforms would themselves be treated as third party assessments. That is, within certain parameters (TBD), complaints by third parties become an additional assessment associated with the CID(s) in question, and become publicly inspectable by ecosystem actors. 
 
+## Claims & Counter-Claims
+
+* Any assessment made by any actor in the system could be challenged or objected to by any other actor in the system, and the challenge would be appended as an additional third party assessment to the CID’s metadata record.
+  * Accommodations would need to be made for legal regimes like the DMCA (or perhaps the British defamation system), which have specific requirements for claims and counter-claims. 
+
 ## Privacy & Data Protection Considerations
 
 * It is assumed that businesses acting as legitimate hosts of app or platform data will be hosting that data under some form of contractual obligation which will explicitly spell out roles and responsibilities to take, or not take, action in accordance with the instructions of the service contracting them. (e.g., in GDPR parlance, if a given app were considered as a controller, and the host were the processor, then these would be an especially relevant considerations)
   * Under a system of contractual relationships like this, in the event that a host receives a third party complaint about a CID used by an app/platform they are under contract with, the host would likely transmit that complaint to the controller or app/platform to make an assessment, which would append the complaint as a third party assessment to the public record, and transmit back instructions for the host to perform on their behalf. 
     * *Note*: This proposed relationship is similar to how CloudFlare or AWS currently handles complaints received by third parties about content which is hosted by a given web platform customer; they forward or pass-through the received complaint to the responsible platform to take action.
-* Any assessment made by any actor in the system could be challenged or objected to by any other actor in the system, and the challenge would be appended as an additional third party assessment to the CID’s metadata record.
-  * Accommodations would need to be made for legal regimes like the DMCA (or perhaps the British defamation system), which have specific requirements for claims and counter-claims. 
-* Where assessments made by third parties (e.g., PhotoDNA for CSAM, or GIFCT for terrorist materials) indicate that a given piece of content is illegal in a given jurisdiction or especially heinous, care must be taken to prevent making public lists of “bad” content available which might be maliciously misused, through protective measures such as double-hashing and other means.
 * Assessments need not necessarily be negative (e.g., a third party fact-check that verifies information contained in a CID), and positive assessments by verified sources might be used in algorithmic rankings.
   * However, in the event that assessments could be negative or unwelcome, and potentially affect the rights or reputation of a natural person(s), further consideration must be given to how best to reconcile the necessity of a given public assessment(s) of content associated with personal data, and the protection of persons (e.g., pseudonymization, and other measures), and legal compliance in relevant jurisdictions (e.g., Right to Erasure under GDPR, CCPA, etc.).
     * Further, if assessments were to be linked to a blockchain, investigations would need to be made regarding options for amending or redacting records in appropriate circumstances under relevant data protection law.
+    
+## Heinous & Illegal Content Concerns
+
+* Where assessments made by third parties (e.g., PhotoDNA for CSAM, or GIFCT for terrorist materials) indicate that a given piece of content is illegal in a given jurisdiction or especially heinous, care must be taken to prevent making public lists of “bad” content available which might be maliciously misused, through protective measures such as double-hashing and other means.
 
 ## Incentive Layer For Ensuring Quality Assessments
 
