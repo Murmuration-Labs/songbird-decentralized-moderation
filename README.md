@@ -89,7 +89,7 @@ This document is presented as an idea sketch for how a decentralized content mod
 
 ## Additional Reading
 
-* [Why decentralisation of content moderation might be the best way to protect freedom of expression online](https://www.article19.org/resources/why-decentralisation-of-content-moderation-might-be-the-best-way-to-protect-freedom-of-expression-online/) by Article 19
-* [Decentralised content moderation](https://martin.kleppmann.com/2021/01/13/decentralised-content-moderation.html) by Martin Kleppman
+* "[Why decentralisation of content moderation might be the best way to protect freedom of expression online](https://www.article19.org/resources/why-decentralisation-of-content-moderation-might-be-the-best-way-to-protect-freedom-of-expression-online/)" by Article 19
+* "[Decentralised content moderation](https://martin.kleppmann.com/2021/01/13/decentralised-content-moderation.html)" by Martin Kleppman
 * [Moderation in Matrix](https://matrix.org/docs/guides/moderation) by Matrix.org
 * [Block Party App](https://www.blockpartyapp.com/): Includes some interesting example local & collaborative filtering functionality for Twitter
