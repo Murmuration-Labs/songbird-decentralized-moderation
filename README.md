@@ -4,7 +4,7 @@
 
 This document is presented as an idea sketch for how a decentralized content moderation and assessment system *might work*, as applied to social networks potentially built on top of distributed storage systems like IPFS. The information contained in this document is intended as a preliminary study only, and not a finished specification or proposal. It's goal is to spark conversations within the greater dweb community about these important issues, and to inspire improvements to and innovations upon the ideas discussed here. Feedback is strongly encouraged!
 
-## Summary:
+## Summary
 
 * Songbird is a proposed model for a pluralistic, decentralized content moderation and assessments system, which can be applied to social networks (or other types of content-based networks) equally by all actors within a technological ecosystem.
 * Songbird supposes that having many diverse actors incentivized to make and pool quality content assessment and moderation choices, instead of a single platform authority, will provide a more rich and customizable experience for users.
@@ -12,7 +12,7 @@ This document is presented as an idea sketch for how a decentralized content mod
 * Songbird as a framework is adaptable in that aspects of it could be implemented to varying degrees in either decentralized, centralized, or hybrid systems. 
 * The description contained here pre-supposes IPFS as a foundational layer, because the ability to link content assessments and moderation actions to unique persistent content-addressed names (i.e., ContentIDs or CIDs) would be of great value in such a system.
 
-## Human Rights Context:
+## Human Rights Context
 
 * Songbird is modeled as an attempt to create a pluralistic rights-based technology which distributes decision-making power about content assessments and moderation or filtering actions laterally to all actors in an ecosystem, as opposed to a singular top-down centralized model. It allows users to technologically express their values.
 * In particular, Songbird takes inspiration from a few key elements of international declarations such as the [UN Declaration of Human Rights](https://www.un.org/en/universal-declaration-human-rights/), and the [Charter of Fundamental Rights of the European Union](https://www.europarl.europa.eu/charter/pdf/text_en.pdf), as well as other similar documents. Selected excerpts are highlighted below, included for their potential relevance to the development of rights-based technologies. *Many other variations exist in international law, and these are presented for illustrative purposes only.*
@@ -24,7 +24,7 @@ This document is presented as an idea sketch for how a decentralized content mod
   * “Everyone has the right to freedom of expression … (and) freedom to hold opinions and to receive and impart information and ideas without interference by public authority (...)” (Art. 11, CFREU)
 
 
-## How Songbird Might Work:
+## How Songbird Might Work
 
 * In a technological ecosystem based on Songbird, all actors would have parity: the same abilities to express their fundamental rights by assessing content and taking resulting content moderation and filtering actions if they desire. Those abilities would include, at minimum:
   * Active local filtering, where an actor assesses content and chooses to filter out that content for themselves (or for their platform) for a given reason.
