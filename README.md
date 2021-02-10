@@ -16,12 +16,12 @@ This document is presented as an idea sketch for how a decentralized content mod
 
 * Songbird is modeled as an attempt to create a pluralistic rights-based technology which distributes decision-making power about content assessments and moderation or filtering actions laterally to all actors in an ecosystem, as opposed to a singular top-down centralized model. It allows users to technologically express their values.
 * In particular, Songbird takes inspiration from a few key elements of international declarations such as the [UN Declaration of Human Rights](https://www.un.org/en/universal-declaration-human-rights/), and the [Charter of Fundamental Rights of the European Union](https://www.europarl.europa.eu/charter/pdf/text_en.pdf), as well as other similar documents. Selected excerpts are highlighted below, included for their potential relevance to the development of rights-based technologies. *Many other variations exist in international law, and these are presented for illustrative purposes only.*
-  * “All human beings are born free and equal in dignity and rights.” (Art. 1, UNDHR)
-  * “Everyone has the right to respect for his or her physical and mental integrity.” (Art. 3, CFREU)
-  * “No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.” (Art. 5, UNDHR)
-  * “Everyone has the right to respect for his or her private and family life, home and communications.” (Art. 7, CFREU)
-  * “Everyone has the right to freedom of thought, conscience and religion (...) either alone or in community with others and in public or private, [and] to manifest (...) in teaching, practice, worship and observance.” (Art. 18, UNDHR)
-  * “Everyone has the right to freedom of expression … (and) freedom to hold opinions and to receive and impart information and ideas without interference by public authority (...)” (Art. 11, CFREU)
+  * *“All human beings are born free and equal in dignity and rights.”* (Art. 1, UNDHR)
+  * *“Everyone has the right to respect for his or her physical and mental integrity.”* (Art. 3, CFREU)
+  * *“No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.”* (Art. 5, UNDHR)
+  * *“Everyone has the right to respect for his or her private and family life, home and communications.”* (Art. 7, CFREU)
+  * *“Everyone has the right to freedom of thought, conscience and religion (...) either alone or in community with others and in public or private, [and] to manifest (...) in teaching, practice, worship and observance.”* (Art. 18, UNDHR)
+  * *“Everyone has the right to freedom of expression … (and) freedom to hold opinions and to receive and impart information and ideas without interference by public authority (...)”* (Art. 11, CFREU)
 
 
 ## How Songbird Might Work
