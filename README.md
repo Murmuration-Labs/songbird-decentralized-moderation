@@ -86,3 +86,10 @@ This document is presented as an idea sketch for how a decentralized content mod
 
 * Since the browser is likely to remain the primary means of interacting with content, it would make sense if the browser was the means through which the user was able to customize their chosen content settings across apps and platforms. It would also make sense if browsers had some sort of embedded functionality for making, sharing (including reporting problematic content), receiving, and subscribing to assessments and moderation actions from collaborative peer-to-peer filters and third party assessors. 
   * If users attempt to visit content which allegedly infringes on their own local content settings, or those of assessors to whom they are subscribed, or those pertinent to their jurisdiction, they might receive an in-browser notification of the alleged infringement, along with additional information. (i.e., part of the browser’s role within Songbird is to make visible the various assessments and moderation actions made by different actors within the ecosystem against a given CID). 
+
+## Additional Reading
+
+* [Why decentralisation of content moderation might be the best way to protect freedom of expression online](https://www.article19.org/resources/why-decentralisation-of-content-moderation-might-be-the-best-way-to-protect-freedom-of-expression-online/) by Article 19
+* [Decentralised content moderation](https://martin.kleppmann.com/2021/01/13/decentralised-content-moderation.html) by Martin Kleppman
+* [Moderation in Matrix](https://matrix.org/docs/guides/moderation) by Matrix.org team
+* [Block Party App](https://www.blockpartyapp.com/) has some interesting example local & collaborative filtering options
