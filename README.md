@@ -93,3 +93,4 @@ This document is presented as an idea sketch for how a decentralized content mod
 * "[Decentralised content moderation](https://martin.kleppmann.com/2021/01/13/decentralised-content-moderation.html)" by Martin Kleppman
 * [Moderation in Matrix](https://matrix.org/docs/guides/moderation) by Matrix.org
 * [Block Party App](https://www.blockpartyapp.com/): Includes some interesting example local & collaborative filtering functionality for Twitter
+* [BitScreen](https://github.com/Murmuration-Labs/bitscreen/blob/master/README.md), by Murmuration Labs, is an example, rudimentary, and narrow implementation of selected aspects of the Songbird concept within the context of de-risking Filecoin miner operations.
