@@ -2,7 +2,7 @@
 
 ## What Is This Document?
 
-This document is presented as an idea sketch for how a decentralized content moderation and assessment system *might work*, as applied to social networks potentially built on top of distributed storage systems like IPFS. The information contained in this document is intended as a preliminary study only, and not a finished specification or proposal. It's goal is to spark conversations within the greater dweb community about these important issues, and to inspire improvements to and innovations upon the ideas discussed here. Feedback is strongly encouraged!
+This document is presented as an idea sketch for how a decentralized content moderation and assessment system *might work*, as applied to social networks potentially built on top of distributed storage systems like IPFS. The information contained in this document is intended as a preliminary study only, and not a finished specification or proposal. It's goal is to spark conversations within the greater Web3/dweb community about these important issues, and to inspire improvements to and innovations upon the ideas discussed here. Feedback is strongly encouraged!
 
 ## Summary
 
