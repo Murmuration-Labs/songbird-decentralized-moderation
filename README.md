@@ -67,6 +67,7 @@ This document is presented as an idea sketch for how a decentralized content mod
 * Assessments need not necessarily be negative (e.g., a third party fact-check that verifies information contained in a CID), and positive assessments by verified sources might be used in algorithmic rankings.
   * However, in the event that assessments could be negative or unwelcome, and potentially affect the rights or reputation of a natural person(s), further consideration must be given to how best to reconcile the necessity of a given public assessment(s) of content associated with personal data, and the protection of persons (e.g., pseudonymization, and other measures), and legal compliance in relevant jurisdictions (e.g., Right to Erasure under GDPR, CCPA, etc.).
     * Further, if assessments were to be linked to a blockchain, investigations would need to be made regarding options for amending or redacting records in appropriate circumstances under relevant data protection law.
+    * Since Article 25 of the GDPR requires data protection by design and by default, designers of systems should choose solutions that maximally protect the data protection rights of users. If redactable and/or permissioned blockchains are not adequate, than other compatible measures should be explored (as in conventional database(s) controlled by trusted party(s).
     
 ## Heinous & Illegal Content Concerns
 
@@ -95,4 +96,6 @@ This document is presented as an idea sketch for how a decentralized content mod
 * [Twitter Bluesky Ecosystem Review](https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD)
 * [Moderation in Matrix](https://matrix.org/docs/guides/moderation) by Matrix.org
 * [Block Party App](https://www.blockpartyapp.com/): Includes some interesting example local & collaborative filtering functionality for Twitter
-* [BitScreen](https://github.com/Murmuration-Labs/bitscreen/blob/master/README.md): A narrow rudimentary first implementation of selected aspects of the Songbird concept within the context of de-risking Filecoin miner operations, by Murmuration Labs.
+* [BitScreen](https://github.com/Murmuration-Labs/bitscreen/blob/master/README.md): A narrow rudimentary first implementation of selected aspects of the Songbird concept within the context of de-risking Filecoin miner operations, by Murmuration Labs
+* [EDITING THE UNEDITABLE BLOCKCHAIN: Why distributed ledger technology must adapt to an imperfect world](https://www.accenture.com/_acnmedia/pdf-33/accenture-editing-uneditable-blockchain.pdf) by Accenture
+* [Solutions for a responsible use of the blockchain in the context of personal data](https://www.cnil.fr/sites/default/files/atoms/files/blockchain_en.pdf) by CNIL France
