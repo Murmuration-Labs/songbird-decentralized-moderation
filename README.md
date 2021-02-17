@@ -88,7 +88,47 @@ This document is presented as an idea sketch for how a decentralized content mod
 * Since the browser is likely to remain the primary means of interacting with content, it would make sense if the browser was the means through which the user was able to customize their chosen content settings across apps and platforms. It would also make sense if browsers had some sort of embedded functionality for making, sharing (including reporting problematic content), receiving, and subscribing to assessments and moderation actions from collaborative peer-to-peer filters and third party assessors. 
   * If users attempt to visit content which allegedly infringes on their own local content settings, or those of assessors to whom they are subscribed, or those pertinent to their jurisdiction, they might receive an in-browser notification of the alleged infringement, along with additional information. (i.e., part of the browser’s role within Songbird is to make visible the various assessments and moderation actions made by different actors within the ecosystem against a given CID). 
 
-## Additional Reading
+## Further Notes On Economic Incentives of Participants
+
+One of the most innovative aspect of decentralized networks is the idea that each participant in the network can have its own incentives to behave in an optimal way for the network. In the context of moderation and assessment, there are obvious benefits in having players incentivized to identify, classify, and report content which other players would want to filter, isolate, or signal as harmful. It is also fairly common that multiple players might be interested in receiving that information. These players may even have “off network” duties which would require them to moderate the content that they access or expose from the network.
+
+### Specialized Roles
+
+In the model that we anticipate, we could consider 3 classes of players (knowing that some players may play multiple roles):
+
+* Reporters
+* Assessors
+* Operators
+
+Reporters are any participants who will, during the course of their utilization of the network, encounter or identify content that they expect (some) operators to be willing to moderate.
+
+Operators are people who operate the network. They either store files, or expose the content of these files to their own users. They often have legal requirements to moderate some of the content that they host or serve.
+
+In a decentralized network, reporters and operators do not have ways to efficiently communicate “at scale.” It’s hard for one reporter to know of all the operators who would want to moderate a specific piece of content and it’s hard for operators to handle reports by many reporters that they can’t always trust.
+
+### Assessor Role
+
+To solve that, we introduce the concept of assessors. They are network participants who have built a reputation and will act as “facilitators” between the two other types of players.
+
+In practice, operators could delegate the moderation role to some assessor(s) for whom they would pay a recurring fee, as long as they are satisfied with the job performed by the assessor(s). This fee will probably be modest, but assessors will likely have multiple operators who trust them for their moderation.
+
+There could be multiple “kinds” of assessors. Those specialized in hate speech, those specialized in highly illegal content (CSAM, terrorist materials), those specialized in copyrighted material, etc. This would lead to a truly decentralized and pluralistic moderation practice where each operator can decide what kind of content that would refuse to host based on their own legal or moral requirements, and end users can input their signals about content into their custom browser settings.
+
+### Staking By Reporters
+
+Reporters presently only have a handful of assessors to whom they could report content. However, reports made by reporters would still need to be “trusted.” To incentivize quality reporting, we propose that reporters pay a “stake” when they report content to an assessor(s). The stake should correspond to the cost of assessing the content for the assessor. If the content is not considered harmful by the assessor under their public criteria, the stake would be lost. However, if it is indeed considered harmful, the assessor is expected to pay back a share of the fee that operators pay them. The system would also be amenable to having multiple assessors assess a piece of content, each returning their own decision on it.
+
+In this model, reporters are then incentivized to report harmful content. We can even imagine that some participants might “specialize” in the identifying of harmful content, algorithmically, or by leveraging human labor. 
+
+### Foundations & Others Covering Reporting Stakes
+
+It is also likely that non-profits, foundations, and possibly some operators might be willing to cover the cost of stakes to report certain types of content. Especially heinous and highly illegal content such as CSAM or terrorist materials should likely not incur a cost to reporters, who are doing a public good by reporting it. Having the ability to cover costs of staking for reporting of certain categories of content would also potentially help to minimize other possible harmful impacts to persons. For example, if a person is already subject to online abuse (e.g., "revenge porn," threats of violence, or similar), they should not be required them to further incur costs to have related content reviewed and acted on.
+
+### Reputation of Assessors & Transparency
+
+Assessors are incentivized to perform a good assessment, as this will be tied to their reputation. If assessors are too “strict” or require a stake that is too high, reporters will not be incentivized to report content to unless it is egregiously harmful (for fear of losing their stake), leading to false negatives, and degraded trust from both reporters and operators. On other hand, if they’re too lenient, node operators might not trust assessors to make quality decisions, also leading to degraded trust by operators. Ideally, assessors would make publicly available their assessment criteria, and have transparent reporting on their activities, in order to maintain a good reputation.
+
+## Additional High-Level Reading
 
 * [Presidio Principles: Foundational Values for a Decentralized Future](https://github.com/WEF-Blockchain/Presidio-Principles/blob/master/presidio-principles.md) by the World Economic Forum Blockchain Group
 * "[Why decentralisation of content moderation might be the best way to protect freedom of expression online](https://www.article19.org/resources/why-decentralisation-of-content-moderation-might-be-the-best-way-to-protect-freedom-of-expression-online/)" by Article 19
