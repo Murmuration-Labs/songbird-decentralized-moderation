@@ -73,7 +73,12 @@ This document is presented as an idea sketch for how a decentralized content mod
 
 * Where assessments made by third parties (e.g., PhotoDNA for CSAM, or GIFCT for terrorist materials) indicate that a given piece of content is illegal in a given jurisdiction or especially heinous, care must be taken to prevent making public lists of “bad” content available which might be maliciously misused, through protective measures such as double-hashing and other means.
 
-## Incentive Layer For Ensuring Quality Assessments
+## Browser Level Considerations
+
+* Since the browser is likely to remain the primary means of interacting with content, it would make sense if the browser was the means through which the user was able to customize their chosen content settings across apps and platforms. It would also make sense if browsers had some sort of embedded functionality for making, sharing (including reporting problematic content), receiving, and subscribing to assessments and moderation actions from collaborative peer-to-peer filters and third party assessors. 
+  * If users attempt to visit content which allegedly infringes on their own local content settings, or those of assessors to whom they are subscribed, or those pertinent to their jurisdiction, they might receive an in-browser notification of the alleged infringement, along with additional information. (i.e., part of the browser’s role within Songbird is to make visible the various assessments and moderation actions made by different actors within the ecosystem against a given CID). 
+
+## Incentivizing Quality Assessments
 
 * An incentive layer should be devised for Songbird, the intent of which would be to actively reward quality content assessments and moderation or filtering actions in line with a given standard(s), and hopefully diminish the likelihood and impact of potential abuses of the system (e.g., such as brigading of assessors with erroneous or malicious reports of content infringements). 
   * The incentive system would also need to be designed to function such that actors who took up the role of assessors within the system would be sufficiently rewarded to create or supplement viable businesses from their assessment and moderation activities. 
@@ -82,13 +87,8 @@ This document is presented as an idea sketch for how a decentralized content mod
   * Rewards might also come from foundations or other non-profits which deputize users across many platforms to submit compliant reports within their sphere of interest to the organization for assessment and actioning.
   * Users themselves might also be able to put up bounties or staked coins when they report content to be assessed to third parties, in order to fund that assessment.
   * Additionally, there could be levels of verification for partner providers of assessments and moderation. This could perhaps be similar to the role of Filecoin Notaries, but instead of distributing datacap, they distribute content assessments under a given framework, and reward users under the framework of their choosing for reports they consider “valid.”
-  
-## Browser Level Considerations
 
-* Since the browser is likely to remain the primary means of interacting with content, it would make sense if the browser was the means through which the user was able to customize their chosen content settings across apps and platforms. It would also make sense if browsers had some sort of embedded functionality for making, sharing (including reporting problematic content), receiving, and subscribing to assessments and moderation actions from collaborative peer-to-peer filters and third party assessors. 
-  * If users attempt to visit content which allegedly infringes on their own local content settings, or those of assessors to whom they are subscribed, or those pertinent to their jurisdiction, they might receive an in-browser notification of the alleged infringement, along with additional information. (i.e., part of the browser’s role within Songbird is to make visible the various assessments and moderation actions made by different actors within the ecosystem against a given CID). 
-
-## Further Notes On Economic Incentives of Participants
+## Further Notes On Economic Incentives 
 
 One of the most innovative aspect of decentralized networks is the idea that each participant in the network can have its own incentives to behave in an optimal way for the network. In the context of moderation and assessment, there are obvious benefits in having players incentivized to identify, classify, and report content which other players would want to filter, isolate, or signal as harmful. It is also fairly common that multiple players might be interested in receiving that information. These players may even have “off network” duties which would require them to moderate the content that they access or expose from the network.
 
