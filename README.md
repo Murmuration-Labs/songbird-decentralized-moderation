@@ -120,6 +120,8 @@ Reporters presently only have a handful of assessors to whom they could report c
 
 In this model, reporters are then incentivized to report harmful content. We can even imagine that some participants might “specialize” in the identifying of harmful content, algorithmically, or by leveraging human labor. 
 
+Special additional consideration will also need to be made regarding how staking might work around counter-claims or challenges to assessments, or cases where data protection regulations or other legal obligations are concerned.
+
 ### Foundations & Others Covering Reporting Stakes
 
 It is also likely that non-profits, foundations, and possibly some operators might be willing to cover the cost of stakes to report certain types of content. Especially heinous and highly illegal content such as CSAM or terrorist materials should likely not incur a cost to reporters, who are doing a public good by reporting it. Having the ability to cover costs of staking for reporting of certain categories of content would also potentially help to minimize other possible harmful impacts to persons. For example, if a person is already subject to online abuse (e.g., "revenge porn," threats of violence, or similar), they should not be required them to further incur costs to have related content reviewed and acted on.
